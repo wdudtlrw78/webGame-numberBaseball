@@ -1,0 +1,86 @@
+:root {
+    /* Color */
+    --color-white: #fff;
+
+    /* Size */
+    --small-size: 16px;
+    --middle-size: 24px;
+    --large-size: 36px;
+    
+    /* Space */
+    --base-space: 8px;
+    --middle-space: 18px;
+    --large-space: 36px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: var(--color-white);
+    position: relative;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper img {
+    height: 120px;
+    position: absolute;
+    top: 60px;
+}
+
+.wrapper .logs {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.wrapper .reset {
+    font-size: 24px;
+    font-weight: bold;
+    padding: var(--middle-space);
+    margin-bottom: var(--large-space);
+}
+
+.wrapper .restNumber {
+    font-size: var(--size-font);
+    margin-bottom: var(--base-space);
+}
+
+.wrapper .tries {
+    font-size: var(--size-font);
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+    width: 360px;
+    height: 440px;
+    line-height: 36px;
+    margin: var(--large-space);
+    padding: var(--middle-space);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.wrapper .input {
+    padding: 8px 34px;
+    font-size: var(--size-font);
+    text-align: center;
+}
+
+.wrapper .input::placeholder {
+    font-size: 14px;
+    opacity: 0.6;
+}

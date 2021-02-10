@@ -43,6 +43,13 @@ li {
     top: 60px;
 }
 
+.wrapper img.none {
+    height: 120px;
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
 .wrapper .logs {
     font-size: 36px;
     font-weight: bold;

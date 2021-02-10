@@ -1,5 +1,6 @@
 'use strict';
 
+const img = document.querySelector('.img');
 const logs = document.querySelector('.js-logs');
 const form = document.querySelector('.js-form');
 const input = document.querySelector('.js-input');
@@ -69,6 +70,7 @@ form.addEventListener('submit', (e) => {
     }
 
     if (count >= 10) {
+        img.classList.add('none');
         logs.textContent = `Game Over Answer: ${answer.join(', ')}`
         reset.textContent = '(재시작 버튼: F5)';
 

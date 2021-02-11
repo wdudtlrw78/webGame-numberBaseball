@@ -4,12 +4,6 @@
 
 Vanilla Js
 
-## Images
-
-![.](/image/numberBaseball.png)
-
-![.](/image/numberBaseballHomerun.png)
-
 ## 응용
 
 제로초님 웹 게임 강의 학습한 후 복습하기 위해 조금 더 응용해서<br>
@@ -67,3 +61,9 @@ for (let i = 0; i < 4; i += 1) {
 - Array.prototype.join : 배열 -> 구분자로 연결한 문자열 반환
 
 - Array.prototype.includes : 배열 내에 특정 요소 확인하여 불린형 반환
+
+## Images
+
+![.](/image/numberBaseball.png)
+
+![.](/image/numberBaseballHomerun.png)
